@@ -1,21 +1,144 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&family=Syne:wght@400;500;600;700;800&display=swap');
 
 body {
     font-family: "Syne", sans-serif;
+    color: rgb(28, 24, 22);
+    background-color: #f5f2f18c;
+}
+
+/* Navbar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: #f5f2f18c;
+    border: 0;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+    font-size: small;
 }
 
 .navbar-brand {
-    font-weight: 700;
+    font-weight: 800;
+}
+
+.alert {
+    margin-bottom: 0;
 }
 
 .alert_container {}
 
+.alert-warning {
+    /* margin: 10px 0; */
+}
+
+.sale {
+    color: red;
+    font-size: 110%;
+}
+
 .callout_container {
     height: 100vh;
+
+    background: url("../images/wine-image-2.jpeg") no-repeat bottom right;
+    background-size: cover;
+    opacity: ;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(28, 24, 22);
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
 }
 
 .quotes_container {}
 
+.quote_text {
+    font-style: italic;
+}
+
+.quote_name {
+    font-weight: bold;
+}
+
 .features_container {}
 
 .monthly_favourites_container {}
+
+.jumbotron {
+    background: transparent;
+}
+
+.jumbotron h1 {
+    color: rgb(250, 235, 215);
+    margin-top: 90px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.jumbotron>.lead {
+    font-weight: 500;
+    color: rgb(250, 235, 215);
+}
+
+.jumbotron small {
+    font-style: italic;
+    font-size: 90%;
+    color: rgb(245, 242, 241);
+}
+
+/* .text-muted {
+    margin-top: 40px;
+} */
+
+/* Buttons */
+.btn--cta {
+    font-weight: bold;
+    border-radius: 25px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
