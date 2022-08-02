@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
         integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
@@ -41,14 +42,15 @@
                 <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="">Sign In / Sign Up</a></li>
             </ul>
         </div>
-
-        <div class="d-none d-md-block">
-            <p class="navbar-text my-auto mr-2"><i>Great natural wines delivered to your door</i></p>
-            <a href="/login">Sign In / Sign Up</a>
+        <div class="alert_container">
+            <div class="d-none d-md-block">
+                <p class="navbar-text my-auto mr-2"><i>Great natural wines delivered to your door</i></p>
+                <a href="/login">Sign In / Sign Up</a>
+            </div>
         </div>
         <!--</div>-->
     </nav>
-    <article class="container mt-3">
+    <div class="container callout_container">
         <!-- Callout -->
         <div class="row">
             <div class="col-12">
@@ -66,15 +68,16 @@
                         <strong><mark>First one is free!</mark></strong></p>
                     <p><button class="btn btn-lg btn-success" data-toggle="modal" data-target="#signUpModal">Sign
                             Up!</button></p>
-                    <p class="text-muted"><small>You must be over 18 to sign up to our service. Please, drink
+                    <p class="text-muted"><small>You must be over 18 to sign up to our service. Please drink
                             responsibly.</small></p>
                 </section>
             </div>
         </div>
         <!-- /.callout -->
-        <hr>
+    </div>
 
-        <!-- Quotes -->
+    <!-- Quotes -->
+    <div class="container quotes_container">
         <section class="quotes">
             <div class="row">
                 <div class="col-12 my-4">
@@ -112,10 +115,12 @@
                 </div>
             </div>
         </section>
-        <!-- /.quotes -->
-        <hr>
+    </div>
+    <!-- /.quotes -->
+    <hr>
 
-        <!-- Features -->
+    <!-- Features -->
+    <div class="container features_container">
         <section class="features">
             <div class="row">
                 <div class="col-12 my-4">
@@ -163,9 +168,10 @@
             </div>
         </section>
         <!-- /.features -->
-        <hr>
+    </div>
 
-        <!-- Monthly Favourites -->
+    <!-- Monthly Favourites -->
+    <div class="container monthly_favourites_container">
         <section class="monthly_favourites">
             <div class="row">
                 <div class="col-12">
@@ -215,9 +221,8 @@
 
         </section>
         <!-- /.Monthly Favourites -->
-        <hr>
+    </div>
 
-    </article>
 
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
         <div class="modal-dialog" role="document">
