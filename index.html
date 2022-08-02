@@ -14,7 +14,7 @@
 
 <body>
     <!--Nav-->
-    <nav class="navbar navbar-light navbar-expand-sm bg-light">
+    <nav class="navbar navbar-light navbar-expand-sm">
         <a href="/" class="navbar-brand">
             Naturally Wine</a>
 
@@ -42,7 +42,7 @@
                 <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="">Sign In / Sign Up</a></li>
             </ul>
         </div>
-        <div class="alert_container">
+        <div class="signup_container">
             <div class="d-none d-md-block">
                 <p class="navbar-text my-auto mr-2"><i>Great natural wines delivered to your door</i></p>
                 <a href="/login">Sign In / Sign Up</a>
@@ -50,18 +50,26 @@
         </div>
         <!--</div>-->
     </nav>
-    <div class="container callout_container">
-        <!-- Callout -->
+
+    <div class="alert_container">
         <div class="row">
             <div class="col-12">
                 <div class="alert alert-warning">
-                    <strong>Sale Now On!</strong> We've got a sale on. Get a 12 month subscription for the price of 6!
+                    <strong class="sale">Sale Now On!</strong> We've got a sale on. Get a 12 month subscription for the
+                    price of 6!
                     <a href="">See here for more details</a>
                 </div>
             </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid callout_container">
+        <!-- Callout -->
+        <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron">
-                    <h1>The finest natural wines delivered to your doorstep.</h1>
+                    <h1 class="callout_header">The finest natural wines delivered to your doorstep.</h1>
                     <p class="lead">Sign up today to start receiving the world's best natural wines every month.
                         <s class="d-none d-sm-inline">€19.99</s>
                         <span class="d-inline d-sm-none"><br></span>
@@ -93,10 +101,11 @@
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
-                                <p>I've been introduced to more than 10 great international natural wines I never knew
+                                <p class="quote_text">I've been introduced to more than 10 great international natural
+                                    wines I never knew
                                     about!
                                 </p>
-                                <p>- Sarah Chan</p>
+                                <p class="quote_name">- Sarah Chan</p>
                             </blockquote>
                         </div>
                     </div>
@@ -108,8 +117,8 @@
                                 width="100">
                         </div>
                         <blockquote class="blockquote">
-                            <p>I've developed my palate to new heights!</p>
-                            <p>- Elias Wearing</p>
+                            <p class="quote_text">I've developed my palate to new heights!</p>
+                            <p class="quote_name">- Elias Wearing</p>
                         </blockquote>
                     </div>
                 </div>
