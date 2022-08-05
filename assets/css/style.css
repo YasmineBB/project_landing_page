@@ -7,6 +7,13 @@ body {
     background-color: #f5f2f18c;
 }
 
+.container-wrapper {}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
+
 /* Navbar */
 
 .navalert-container {
@@ -43,6 +50,8 @@ body {
     font-weight: 800;
 }
 
+/* Alerts */
+
 .alert {
     margin-bottom: 0;
     border-radius: 0;
@@ -66,6 +75,8 @@ body {
     color: red;
     font-weight: 700;
 }
+
+/* Callout */
 
 
 .callout_container {
@@ -92,19 +103,26 @@ body {
     background-color: rgba(0, 0, 0, 0.35);
 }
 
-.quotes_container {}
+/* Page Headers */
 
-.quote_text {
-    font-style: italic;
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
 }
 
-.quote_name {
-    font-weight: bold;
+.page-header h2 {
+    margin-top: 0;
 }
 
-.features_container {}
+/* Content Containers */
 
-.monthly_favourites_container {}
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* Jumbotron */
 
 .jumbotron {
     background: transparent;
@@ -137,6 +155,7 @@ body {
 } */
 
 /* Buttons */
+
 .btn--cta {
     font-weight: bold;
     border-radius: 25px;
@@ -157,3 +176,26 @@ body {
     border-color: #df4929;
     color: white;
 }
+
+/* Quotes */
+
+.quotes_container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.quote_text {
+    font-style: italic;
+}
+
+.quote_name {
+    font-weight: bold;
+}
+
+/* Features */
+
+.features_container {}
+
+/* Monthly Favourites */
+
+.monthly_favourites_container {}
