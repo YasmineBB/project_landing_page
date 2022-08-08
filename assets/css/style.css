@@ -196,6 +196,32 @@ body {
 
 .features_container {}
 
+.features {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.features i {
+    margin: 20px 0;
+}
+
+.features .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+}
+
+.features .btn:hover {
+    background-color: #e9dbd7;
+    border-color: #e9dbd7;
+    color: #df4929;
+}
+
+
 /* Monthly Favourites */
 
 .monthly_favourites_container {}
